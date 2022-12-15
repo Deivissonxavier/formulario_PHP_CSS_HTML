@@ -85,8 +85,8 @@
             <fieldset>
                 <legend><b>Os sequintes dados foram cadastrados com sucesso:</b></legend>
                 <?php
-                    include_once("Contato.class.php");
-                    include_once("Curso.class.php");
+                    include_once("assets/php/Contato.class.php");
+                    include_once("assets/php/Curso.class.php");
                     $aluno01 = new Aluno();
 
                     $aluno01->setNome($_POST['nome']);
